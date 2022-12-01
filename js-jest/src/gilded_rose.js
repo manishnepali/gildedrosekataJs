@@ -26,7 +26,7 @@ class Shop {
       /* This is checking if the sellIn value is less than 0, and if it is, then it is calling the
       updateQuality function again. */
       this.items[i].sellIn < 0
-      ? this.updateQuality(i)
+      ? this.expierdUpdate(i)
       : null
     }
     return this.items;
